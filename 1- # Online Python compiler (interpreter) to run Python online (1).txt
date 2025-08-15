@@ -1,0 +1,11 @@
+﻿1-palavra = input("Digite uma palavra: ")
+2-vogais = "aeiouAEIOU" # Incluímos maiúsculas e minúsculas
+3-contador_vogais = 0
+4-
+5-# O 'for' vai passar por cada 'letra' na 'palavra'
+6-for letra in palavra:
+7-   # Verificamos se a letra atual está na nossa string de vogais
+8-   if letra in vogais:
+9-       contador_vogais += 1 # Se for vogal, incrementamos o contador
+10-        
+11-print(f"A palavra '{palavra}' tem {contador_vogais} vogais.")
